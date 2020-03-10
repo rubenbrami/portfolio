@@ -1,0 +1,307 @@
+body{
+	background-image : url("fond.png");
+	overflow: normal;
+}
+
+
+h1{
+	color:white;
+	text-align: center;
+	font-size: 75px ;
+	font-family: Trebuchet MS, sans-serif ;
+	/*background-color: rgb(255,255,255,0.3);*/
+
+}
+h2 {
+	color:white;
+	font-family: Trebuchet MS, sans-serif ;
+}
+
+
+#sous-titre{	
+	text-align: center;
+}
+
+#ligne{
+	width: 90%;
+	display: table;
+	margin:0 auto;/*centrage marges automatiques*/
+	text-align:center;/*centre les inline qu'il contient*/
+	list-style-type: none;
+	writing-mode: horizontal-tb;
+	/*background-color: red;*/
+}
+#ligne .menu{
+	display: table-cell;
+}
+#ligne .menu .boutonMenu{
+	font-family: Trebuchet MS, sans-serif ;
+	/*display: inline-block;*/
+	float : left;
+	/*padding: 13px;*/
+	/*border: 2px;*/
+	color: white;
+	text-decoration:none;
+	text-align: center;
+	transition-property : background-color color;
+	transition-duration : 0.3s;
+	font-size: 20px;
+	width: 100%;
+
+}
+
+#ligne .menu + .menu{
+	border-left: 1px solid white;
+}
+
+#ligne .menu .boutonMenu:hover{
+	background-color: white;
+	color : #1c2a33;
+}
+
+#bande-demo{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.categorie{
+	margin-top: 50px;
+	margin-left: 40px;
+}
+.miniatures{
+	width: 90%;
+	margin: 0 auto;	
+	text-align: center;
+}
+.miniatures figure{	
+	display: inline-block;
+}
+
+.miniature{
+	width: 400px;
+}
+
+.miniature:hover{
+	/*opacity: 70%;*/
+	filter:	brightness(1.25);
+
+}
+.legendes{
+	margin-top: 10px;
+	color: white;
+	font-family: Trebuchet MS, sans-serif ;
+	text-align: center;
+	font-size: 20px;
+}
+
+.fenetre{
+	background-color: rgba(0,0,0,0.9);
+	width: 100%;
+	height: 100%;
+/*	padding: 0;
+*/	vertical-align:top;
+	display: inline-block;
+	text-align: center;
+	float: left;
+	/*overflow: auto;
+	display: -webkit-box; display: -moz-box; display: -ms-flexbox; display: flex;
+	flex-flow : row;
+	align-items : stretch;
+	justify-content : center;*/
+}
+
+
+.croix{
+	/*position: absolute;*/
+	margin-top: 15%;
+	width: 50%;
+	opacity: 0.7;
+	transition-duration : 0.2s;
+}
+
+.croix:hover{
+	opacity: 1;
+}
+
+#fenetre22h22, #fenetreLesGarsQuiCherchent, #fenetreVermillon, #fenetreHappiness47, #fenetreMindie, #fenetreOpenSpace, #fenetreBlueInk, #fenetreLosingFaith, #fenetreLegoStarWars, #fenetreWallE, #fenetreLego3D, #fenetreCharlotte{
+	display: none;
+	position: fixed;
+	top:0;
+	left: 0;
+}
+
+.videoPreview{
+/*	position: absolute;
+	margin-top: 30px;
+	margin-left: 600px;
+*/	width: 90%;
+	height: 50%;
+	margin-top: 70px;
+}
+.zoneDeCroix{
+	width: 5%;
+	height: 100%;
+	/*background-color: green;*/
+	display: inline-block;
+	position: fixed;
+	left: 0;
+	text-align: center;
+
+}
+
+.zoneDeTexte{
+	width: 40%;
+	height: 100%;
+	/*background-color: red;*/
+	display: inline-block;
+	position: fixed;
+	top: 0;
+	left :5%;
+}
+
+.zoneDeVideo{
+	width: 55%;
+	height: 100%;
+	/*background-color: blue;*/
+	display: inline-block;
+	position: fixed;
+	right: 0;
+
+}
+/*.sousZoneDeLegende{
+	margin: auto;
+	overflow: hidden;
+	width: 85%;
+	max-height: 32%;
+	border-style: solid;
+	border-color: white;
+	border-width: thin;
+
+	background-color: black;
+}*/
+.cadreDeTexte{
+	margin-top: 10%;
+	border-style: solid;
+	border-color: white;
+	border-width: thin;
+	overflow: scroll;
+	max-height: 85%;
+	/*background-color: yellow;*/
+}
+.aSavoir{
+	font-size: 1.2vw;
+	/*height: 6%;*/
+	margin: auto;
+	width: 85%;
+	/*background-color: red;*/
+	border-style: solid;
+	border-color: white;
+	border-width: thin;
+
+}
+.titre{
+	text-align: center;
+	font-size: 6vw;
+	margin-top: 10%;
+	margin-bottom: 10%;
+}
+
+.zoneTexteASavoir{
+	margin: auto;
+	/*background-color: green;*/
+	overflow: scroll;
+	max-height: 22%;
+	width: 85%;
+	border-style: solid;
+	border-color: white;
+	border-width: thin;
+
+}
+
+.texteDescriptif{
+	padding-left:10%;
+	padding-right:10%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	color: white;
+	font-family: Trebuchet MS, sans-serif ;
+	word-wrap : break-word;
+}
+
+#mes_roles, #avec, #equipeTechnique,#date{ 
+	text-align: left;
+}
+
+.roles{
+	text-align: left;
+	margin-left: 10%;
+	margin-top: -15px;
+	white-space:nowrap;
+
+}
+
+.role{
+	color: white;
+	font-family: Trebuchet MS, sans-serif ;
+}
+
+#titre22h22{
+	color : #a5cfc3;
+	font-family: Courier New;
+	font-weight: normal;
+	font-size: 8vw;
+}
+#titreLesGarsQuiCherchent{
+	color : #4084b8;
+	font-family: Krungthep;
+	font-weight: normal;
+	font-size: 5vw;
+
+}
+
+#titreVermillon{
+	color: #ffbf00;
+  	font-family: "Times New Roman", Times, serif;
+	font-weight: normal;
+}
+
+#titreHappiness47{
+	color: #ede15c;
+	font-family: Impact;
+	font-weight: normal;
+}
+
+#titreMindie{
+	color: #2bf1ff;
+	font-family: 'Arial Black', 'Arial Bold', Gadget, sans-serif;
+
+	font-weight: bold;
+}
+
+#titreBlueInk{
+	color:#03336e;
+}
+
+#titreLosingFaith{
+	color: #e8d6b3;
+}
+
+#titreLego3D{
+	color: #ff3838;
+	font-family: "Futura", sans-serif;
+	font-weight: normal;
+}
+
+#texteASavoir{
+	text-align: justify;
+}
+
+/*#fenetreLesGarsQuiCherchent{
+	display: none;
+	position: fixed;
+	top:0;
+	left: 0;
+}*/

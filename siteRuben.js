@@ -27,20 +27,13 @@ buton22h22.onclick = function(){
 	console.log(body.style.overflow );
 }
 
-function exit(){
+croix22h22.onclick = function(){
 	fenetre22h22.style.display = "none";
 	stopVideo(fenetre22h22);
 	body.style.overflow = "auto";
 	console.log(body.style.overflow );
-}
 
-document.onkeydown = function (e) {
-    var keyCode = e.keyCode;
-    if(keyCode == 27) {
-        exit();
-    }
-};
-croix22h22.onclick = exit;
+}
 
 
 // LES GARS QUI CHERCHENT
@@ -73,21 +66,11 @@ butonVermillon.onclick = function(){
 	body.style.overflow = "hidden";
 }
 
-function exitVermillon(){
+croixVermillon.onclick = function(){
 	fenetreVermillon.style.display = "none";
 	stopVideo(fenetreVermillon);
 	body.style.overflow = "auto";
-	console.log(body.style.overflow );
 }
-
-document.onkeydown = function (e) {
-    var keyCode = e.keyCode;
-    if(keyCode == 27) {
-        exitVermillon();
-    }
-};
-
-croixVermillon.onclick = exitVermillon;
 
 // HAPPINESS 47
 
@@ -101,21 +84,11 @@ butonHappiness47.onclick = function(){
 	body.style.overflow = "hidden";
 }
 
-function exitHappiness47(){
+croixHappiness47.onclick = function(){
 	fenetreHappiness47.style.display = "none";
 	stopVideo(fenetreHappiness47);
 	body.style.overflow = "auto";
-	console.log(body.style.overflow );
 }
-
-document.onkeydown = function (e) {
-    var keyCode = e.keyCode;
-    if(keyCode == 27) {
-        exitHappiness47();
-    }
-};
-
-croixHappiness47.onclick = exitHappiness47;
 
 
 // MINDIE
@@ -130,21 +103,11 @@ butonMindie.onclick = function(){
 	body.style.overflow = "hidden";
 }
 
-function exitMindie(){
+croixMindie.onclick = function(){
 	fenetreMindie.style.display = "none";
 	stopVideo(fenetreMindie);
 	body.style.overflow = "auto";
-	console.log(body.style.overflow );
 }
-
-document.onkeydown = function (e) {
-    var keyCode = e.keyCode;
-    if(keyCode == 27) {
-        exitMindie();
-    }
-};
-
-croixHappiness47.onclick = exitMindie;
 
 
 // LOSING FAITH
@@ -159,21 +122,11 @@ butonLosingFaith.onclick = function(){
 	body.style.overflow = "hidden";
 }
 
-function exitLosingFaith(){
+croixLosingFaith.onclick = function(){
 	fenetreLosingFaith.style.display = "none";
 	stopVideo(fenetreLosingFaith);
 	body.style.overflow = "auto";
-	console.log(body.style.overflow );
 }
-
-document.onkeydown = function (e) {
-    var keyCode = e.keyCode;
-    if(keyCode == 27) {
-        exitLosingFaith();
-    }
-};
-
-croixHappiness47.onclick = exitLosingFaith;
 
 
 // OPEN SPACE
@@ -188,21 +141,11 @@ butonOpenSpace.onclick = function(){
 	body.style.overflow = "hidden";
 }
 
-function exitOpenSpace(){
+croixOpenSpace.onclick = function(){
 	fenetreOpenSpace.style.display = "none";
 	stopVideo(fenetreOpenSpace);
 	body.style.overflow = "auto";
-	console.log(body.style.overflow );
 }
-
-document.onkeydown = function (e) {
-    var keyCode = e.keyCode;
-    if(keyCode == 27) {
-        exitOpenSpace();
-    }
-};
-
-croixHappiness47.onclick = exitOpenSpace;
 
 
 
@@ -219,21 +162,12 @@ butonBlueInk.onclick = function(){
 	body.style.overflow = "hidden";
 }
 
-function exitBlueInk(){
+croixBlueInk.onclick = function(){
 	fenetreBlueInk.style.display = "none";
 	stopVideo(fenetreBlueInk);
 	body.style.overflow = "auto";
-	console.log(body.style.overflow );
 }
 
-document.onkeydown = function (e) {
-    var keyCode = e.keyCode;
-    if(keyCode == 27) {
-        exitBlueInk();
-    }
-};
-
-croixHappiness47.onclick = exitBlueInk;
 
 // LEGO STAR WARS
 
@@ -247,21 +181,11 @@ butonLegoStarWars.onclick = function(){
 	body.style.overflow = "hidden";
 }
 
-function exitLegoStarWars(){
+croixLegoStarWars.onclick = function(){
 	fenetreLegoStarWars.style.display = "none";
 	stopVideo(fenetreLegoStarWars);
 	body.style.overflow = "auto";
-	console.log(body.style.overflow );
 }
-
-document.onkeydown = function (e) {
-    var keyCode = e.keyCode;
-    if(keyCode == 27) {
-        exitLegoStarWars();
-    }
-};
-
-croixHappiness47.onclick = exitLegoStarWars;
 
 
 // WALL.E
@@ -276,21 +200,12 @@ butonWallE.onclick = function(){
 	body.style.overflow = "hidden";
 }
 
-function exitWallE(){
+croixWallE.onclick = function(){
 	fenetreWallE.style.display = "none";
 	stopVideo(fenetreWallE);
 	body.style.overflow = "auto";
-	console.log(body.style.overflow );
 }
 
-document.onkeydown = function (e) {
-    var keyCode = e.keyCode;
-    if(keyCode == 27) {
-        exitWallE();
-    }
-};
-
-croixHappiness47.onclick = exitWallE;
 
 // LEGO RETOUR VERS LE FUTUR
 
@@ -304,21 +219,12 @@ butonLego3D.onclick = function(){
 	body.style.overflow = "hidden";
 }
 
-function exitLego3D(){
+croixLego3D.onclick = function(){
 	fenetreLego3D.style.display = "none";
 	stopVideo(fenetreLego3D);
 	body.style.overflow = "auto";
-	console.log(body.style.overflow );
 }
 
-document.onkeydown = function (e) {
-    var keyCode = e.keyCode;
-    if(keyCode == 27) {
-        exitLego3D();
-    }
-};
-
-croixHappiness47.onclick = exitLego3D;
 
 // CHARLOTTE
 
@@ -332,18 +238,8 @@ butonCharlotte.onclick = function(){
 	body.style.overflow = "hidden";
 }
 
-function exitCharlotte(){
+croixCharlotte.onclick = function(){
 	fenetreCharlotte.style.display = "none";
 	stopVideo(fenetreCharlotte);
 	body.style.overflow = "auto";
-	console.log(body.style.overflow );
 }
-
-document.onkeydown = function (e) {
-    var keyCode = e.keyCode;
-    if(keyCode == 27) {
-        exitCharlotte();
-    }
-};
-
-croixHappiness47.onclick = exitCharlotte;

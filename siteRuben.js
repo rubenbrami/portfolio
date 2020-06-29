@@ -40,7 +40,6 @@ document.onkeydown = function (e) {
         exit();
     }
 };
-
 croix22h22.onclick = exit;
 
 

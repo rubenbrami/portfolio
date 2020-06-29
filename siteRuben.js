@@ -14,13 +14,11 @@ var stopVideo = function ( element ) {
     }
 };
 
-
 var buttonAddMovie = document.getElementById("buttonAddMovie");
 buttonAddMovie.onclick = function(){
 	var v = document.createElement("FIGURE");
 	document.getElementById("CourtsMetrages").appendChild(v);
 }
-
 
 // 22 H 22
 var buton22h22 = document.getElementById("miniature_22h22");

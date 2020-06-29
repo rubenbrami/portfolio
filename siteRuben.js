@@ -27,7 +27,7 @@ buton22h22.onclick = function(){
 	console.log(body.style.overflow );
 }
 
-function exit22h22(){
+function exit(){
 	fenetre22h22.style.display = "none";
 	stopVideo(fenetre22h22);
 	body.style.overflow = "auto";
@@ -37,11 +37,11 @@ function exit22h22(){
 document.onkeydown = function (e) {
     var keyCode = e.keyCode;
     if(keyCode == 27) {
-        exit22h22();
+        exit();
     }
 };
 
-croix22h22.onclick = exit22h22;
+croix22h22.onclick = exit;
 
 
 // LES GARS QUI CHERCHENT

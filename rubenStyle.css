@@ -282,7 +282,9 @@ h2 {
 }
 
 #titreOpenSpace{
-	color: #ba2d20;
+	color: #c92718;
+	font-family: 'Arial Black', 'Arial Bold', Gadget, sans-serif;
+	letter-spacing: 0.1em;
 }
 
 #titreBlueInk{

@@ -41,7 +41,7 @@ document.onkeydown = function (e) {
     }
 };
 
-croix22h22.onclick = exit();
+croix22h22.onclick = exit;
 
 
 // LES GARS QUI CHERCHENT

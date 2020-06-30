@@ -18,7 +18,7 @@ var fenetres = document.getElementsByClassName('fenetre');
 
 var exit = function () {
 	for(var i=0; i<fenetres.length; i++){
-		fenetres[i].style.display = "none");
+		fenetres[i].style.display = "none";
 		stopVideo(fenetre[i]);
 	}
 	body.style.overflow = "auto";

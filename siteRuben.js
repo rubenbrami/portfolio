@@ -38,7 +38,7 @@ var croix22h22 = document.getElementById("croix22h22");
 buton22h22.onclick = function(){
 	fenetre22h22.style.display= "block";
 	stopVideo(bandedemo);
-	body.style.overflow = "hidzzzden";
+	body.style.overflow = "hidden";
 	console.log(body.style.overflow );
 	console.log("samba");
 }

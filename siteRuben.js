@@ -14,10 +14,15 @@ var stopVideo = function ( element ) {
     }
 };
 
+var open = function (title) {
+	var fen = document.getElementById("fenetre".concat(title));
+	fen.style.display= "block";
+	stopVideo(bandedemo);
+	body.style.overflow = "hidden";
+	console.log(body.style.overflow );
+}
 
 var exit = function (title) {
-	//title = "22h22";
-	console.log("coocou");
 	var fen = document.getElementById("fenetre".concat(title));
 	fen.style.display = "none";
 	stopVideo(fen)
@@ -31,13 +36,12 @@ var fenetre22h22 = document.getElementById("fenetre22h22");
 var croix22h22 = document.getElementById("croix22h22");
 
 buton22h22.onclick = function(){
-	fenetre22h22.style.display= "block";
-	stopVideo(bandedemo);
-	body.style.overflow = "hidden";
-	console.log(body.style.overflow );
+	open("22h22");
 }
 
-croix22h22.onclick = exit("22h22");
+croix22h22.onclick = function(){
+	exit("22h22")
+}
 
 
 // LES GARS QUI CHERCHENT
@@ -47,17 +51,11 @@ var fenetreLesGarsQuiCherchent = document.getElementById("fenetreLesGarsQuiCherc
 var croixLesGarsQuiCherchent = document.getElementById("croixLesGarsQuiCherchent");
 
 butonLesGarsQuiCherchent.onclick = function(){
-	fenetreLesGarsQuiCherchent.style.display= "block";
-	stopVideo(bandedemo);
-	body.style.overflow = "hidden";
+	open("LesGarsQuiCherchent");
 }
 
-//croixLesGarsQuiCherchent.onclick = exit("LesGarsQuiCherchent");
-
 croixLesGarsQuiCherchent.onclick = function(){
-	fenetreLesGarsQuiCherchent.style.display = "none";
-	stopVideo(fenetreLesGarsQuiCherchent);
-	body.style.overflow = "auto";
+	exit("LesGarsQuiCherchent");
 }
 
 // VERMILLON

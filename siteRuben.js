@@ -18,13 +18,14 @@ var croix = document.getElementsByClassName("croix");
 
 var titles = ["22h22", "LesGarsQuiCherchent", "Vermillon", "Happiness47", "Mindie", "LosingFaith", "OpenSpace", "BlueInk", "LegoStarWars", "WallE", "Lego3D", "Charlotte"];
 
-var open = function(title) {
+var open = function (title) {
 	fen = document.getElementById("fenetre".concat(title));
 	fen.style.display= "block";
 	stopVideo(bandedemo);
 	body.style.overflow = "hidden";
 	console.log(body.style.overflow );
-}
+};
+
 
 var exit = function (title) {
 	fen = document.getElementById("fenetre".concat(title));
@@ -32,7 +33,7 @@ var exit = function (title) {
 	stopVideo(fen)
 	body.style.overflow = "auto";
 	console.log(body.style.overflow );
-}
+};
 
 /*for(int i=0; i<croix.length; i++){
 	croix[i].onclick = exit(titles[i]);

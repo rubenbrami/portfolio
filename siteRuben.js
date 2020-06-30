@@ -14,6 +14,14 @@ var stopVideo = function ( element ) {
     }
 };
 
+var fenetres = document.getElementsByClassName("fenetre");
+
+var exit = function () {
+	fenetres.style.display = "none";
+	stopVideo(fenetres);
+	body.style.overflow = "auto";
+	console.log(body.style.overflow );
+}
 
 // 22 H 22
 var buton22h22 = document.getElementById("miniature_22h22");
@@ -27,13 +35,15 @@ buton22h22.onclick = function(){
 	console.log(body.style.overflow );
 }
 
-croix22h22.onclick = function(){
+/*croix22h22.onclick = function(){
 	fenetre22h22.style.display = "none";
 	stopVideo(fenetre22h22);
 	body.style.overflow = "auto";
 	console.log(body.style.overflow );
 
-}
+}*/
+
+croix22h22.onclick = exit;
 
 
 // LES GARS QUI CHERCHENT

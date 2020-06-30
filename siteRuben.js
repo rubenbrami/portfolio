@@ -40,6 +40,7 @@ buton22h22.onclick = function(){
 	stopVideo(bandedemo);
 	body.style.overflow = "hidden";
 	console.log(body.style.overflow );
+	console.log("samba");
 }
 
 croix22h22.onclick = exit("22h22");

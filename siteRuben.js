@@ -33,7 +33,7 @@ var exit = function (title) {
 	stopVideo(fen)
 	body.style.overflow = "auto";
 	console.log(body.style.overflow );
-}
+};
 
 /*for(int i=0; i<croix.length; i++){
 	croix[i].onclick = exit(titles[i]);

@@ -35,15 +35,15 @@ buton22h22.onclick = function(){
 	console.log(body.style.overflow );
 }
 
-/*croix22h22.onclick = function(){
-	fenetre22h22.style.display = "none";
-	stopVideo(fenetre22h22);
+croix22h22.onclick = function(){
+	fenetres.style.display = "none";
+	stopVideo(fenetres);
 	body.style.overflow = "auto";
 	console.log(body.style.overflow );
 
-}*/
+}
 
-croix22h22.onclick = exit;
+/*croix22h22.onclick = exit;*/
 
 
 // LES GARS QUI CHERCHENT

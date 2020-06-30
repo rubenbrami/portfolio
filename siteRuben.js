@@ -17,6 +17,7 @@ var stopVideo = function ( element ) {
 
 var exit = function (title) {
 	//title = "22h22";
+	console.log("coocou");
 	var fen = document.getElementById("fenetre".concat(title));
 	fen.style.display = "none";
 	stopVideo(fen)

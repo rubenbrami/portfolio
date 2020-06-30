@@ -17,10 +17,6 @@ var stopVideo = function ( element ) {
 var fenetres = document.getElementsByClassName('fenetre');
 
 var exit = function (title) {
-	/*for(var i=0; i<fenetres.length; i++){
-		fenetres[i].style.display = "none";
-		stopVideo(fenetres[i]);
-	}*/
 	fen = document.getElementById("fenetre".concat(title));
 	fen.style.display = "none";
 	stopVideo(fen)
@@ -40,14 +36,6 @@ buton22h22.onclick = function(){
 	console.log(body.style.overflow );
 }
 
-/*croix22h22.onclick = function(){
-	fenetres.style.display = "none";
-	stopVideo(fenetres);
-	body.style.overflow = "auto";
-	console.log(body.style.overflow );
-
-}*/
-
 croix22h22.onclick = exit("22h22");
 
 
@@ -63,11 +51,7 @@ butonLesGarsQuiCherchent.onclick = function(){
 	body.style.overflow = "hidden";
 }
 
-croixLesGarsQuiCherchent.onclick = function(){
-	fenetreLesGarsQuiCherchent.style.display = "none";
-	stopVideo(fenetreLesGarsQuiCherchent);
-	body.style.overflow = "auto";
-}
+croixLesGarsQuiCherchent.onclick = exit("LesGarsQuiCherchent");
 
 // VERMILLON
 

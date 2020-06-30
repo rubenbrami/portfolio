@@ -18,13 +18,13 @@ var croix = document.getElementsByClassName("croix");
 
 var titles = ["22h22", "LesGarsQuiCherchent", "Vermillon", "Happiness47", "Mindie", "LosingFaith", "OpenSpace", "BlueInk", "LegoStarWars", "WallE", "Lego3D", "Charlotte"];
 
-var open = function (title) {
+/*var open = function (title) {
 	fen = document.getElementById("fenetre".concat(title));
 	fen.style.display= "block";
 	stopVideo(bandedemo);
 	body.style.overflow = "hidden";
 	console.log(body.style.overflow );
-};
+};*/
 
 
 var exit = function (title) {
@@ -33,7 +33,7 @@ var exit = function (title) {
 	stopVideo(fen)
 	body.style.overflow = "auto";
 	console.log(body.style.overflow );
-};
+}
 
 /*for(int i=0; i<croix.length; i++){
 	croix[i].onclick = exit(titles[i]);
@@ -44,12 +44,12 @@ var buton22h22 = document.getElementById("miniature_22h22");
 var fenetre22h22 = document.getElementById("fenetre22h22");
 var croix22h22 = document.getElementById("croix22h22");
 
-buton22h22.onclick = open("22h22");/*function(){
+buton22h22.onclick = /*open("22h22");*/function(){
 	fenetre22h22.style.display= "block";
 	stopVideo(bandedemo);
 	body.style.overflow = "hidden";
 	console.log(body.style.overflow );
-}*/
+}
 
 croix22h22.onclick = exit("22h22");
 

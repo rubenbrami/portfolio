@@ -16,7 +16,7 @@ var stopVideo = function ( element ) {
 
 
 var exit = function (title) {
-	fen = document.getElementById("fenetre".concat(title));
+	var fen = document.getElementById("fenetre".concat(title));
 	fen.style.display = "none";
 	stopVideo(fen)
 	body.style.overflow = "auto";

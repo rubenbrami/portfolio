@@ -66,7 +66,7 @@ butonLesGarsQuiCherchent.onclick = function(){
 	body.style.overflow = "hidden";
 }
 
-croixLesGarsQuiCherchent.onclick = exit("LesGarsQuiCherchent");
+//croixLesGarsQuiCherchent.onclick = exit("LesGarsQuiCherchent");
 
 // VERMILLON
 

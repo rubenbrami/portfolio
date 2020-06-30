@@ -14,7 +14,7 @@ var stopVideo = function ( element ) {
     }
 };
 
-var fenetres = document.getElementsByClassName("fenetre");
+var fenetres = document.getElementsByClassName('fenetre');
 
 var exit = function () {
 	fenetres.style.display = "none";

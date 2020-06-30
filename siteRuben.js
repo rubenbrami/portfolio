@@ -14,7 +14,6 @@ var stopVideo = function ( element ) {
     }
 };
 
-var fenetres = document.getElementsByClassName('fenetre');
 
 var exit = function (title) {
 	fen = document.getElementById("fenetre".concat(title));

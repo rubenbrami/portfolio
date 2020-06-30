@@ -17,8 +17,10 @@ var stopVideo = function ( element ) {
 var fenetres = document.getElementsByClassName('fenetre');
 
 var exit = function () {
-	fenetres.forEach(fenetre => fenetre.style.display = "none");
-	fenetres.forEach(fenetre => stopVideo(fenetre));
+	for(var i=0; i<fenetres.length; i++){
+		fenetres[i].style.display = "none");
+		stopVideo(fenetre[i]);
+	}
 	body.style.overflow = "auto";
 	console.log(body.style.overflow );
 }

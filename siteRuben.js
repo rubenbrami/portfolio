@@ -14,9 +14,7 @@ var stopVideo = function ( element ) {
     }
 };
 
-//var croix = document.getElementsByClassName("croix");
-
-//var titles = ["22h22", "LesGarsQuiCherchent", "Vermillon", "Happiness47", "Mindie", "LosingFaith", "OpenSpace", "BlueInk", "LegoStarWars", "WallE", "Lego3D", "Charlotte"];
+var fenetres = document.getElementsByClassName('fenetre');
 
 var exit = function (title) {
 	fen = document.getElementById("fenetre".concat(title));
@@ -25,10 +23,6 @@ var exit = function (title) {
 	body.style.overflow = "auto";
 	console.log(body.style.overflow );
 }
-
-/*for(int i=0; i<croix.length; i++){
-	croix[i].onclick = exit(titles[i]);
-}*/
 
 // 22 H 22
 var buton22h22 = document.getElementById("miniature_22h22");
@@ -40,7 +34,6 @@ buton22h22.onclick = function(){
 	stopVideo(bandedemo);
 	body.style.overflow = "hidden";
 	console.log(body.style.overflow );
-	console.log("samba");
 }
 
 croix22h22.onclick = exit("22h22");

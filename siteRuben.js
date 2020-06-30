@@ -15,8 +15,8 @@ var stopVideo = function ( element ) {
 };
 
 
-var exit = function () {
-	title = "22h22";
+function exit(title) {
+	//title = "22h22";
 	var fen = document.getElementById("fenetre".concat(title));
 	fen.style.display = "none";
 	stopVideo(fen)
@@ -36,7 +36,7 @@ buton22h22.onclick = function(){
 	console.log(body.style.overflow );
 }
 
-croix22h22.onclick = exit;
+croix22h22.onclick = exit("22h22");
 
 
 // LES GARS QUI CHERCHENT

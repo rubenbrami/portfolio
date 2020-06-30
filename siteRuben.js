@@ -65,15 +65,11 @@ var fenetreVermillon = document.getElementById("fenetreVermillon");
 var croixVermillon = document.getElementById("croixVermillon");
 
 butonVermillon.onclick = function(){
-	fenetreVermillon.style.display= "block";
-	stopVideo(bandedemo);
-	body.style.overflow = "hidden";
+	open("Vermillon");
 }
 
 croixVermillon.onclick = function(){
-	fenetreVermillon.style.display = "none";
-	stopVideo(fenetreVermillon);
-	body.style.overflow = "auto";
+	exit("Vermillon");
 }
 
 // HAPPINESS 47
@@ -83,15 +79,11 @@ var fenetreHappiness47 = document.getElementById("fenetreHappiness47");
 var croixHappiness47 = document.getElementById("croixHappiness47");
 
 butonHappiness47.onclick = function(){
-	fenetreHappiness47.style.display= "block";
-	stopVideo(bandedemo);
-	body.style.overflow = "hidden";
+	open("Happiness47");
 }
 
 croixHappiness47.onclick = function(){
-	fenetreHappiness47.style.display = "none";
-	stopVideo(fenetreHappiness47);
-	body.style.overflow = "auto";
+	exit("Happiness47");
 }
 
 
@@ -102,34 +94,11 @@ var fenetreMindie = document.getElementById("fenetreMindie");
 var croixMindie = document.getElementById("croixMindie");
 
 butonMindie.onclick = function(){
-	fenetreMindie.style.display= "block";
-	stopVideo(bandedemo);
-	body.style.overflow = "hidden";
+	open("Mindie");
 }
 
 croixMindie.onclick = function(){
-	fenetreMindie.style.display = "none";
-	stopVideo(fenetreMindie);
-	body.style.overflow = "auto";
-}
-
-
-// LOSING FAITH
-
-var butonLosingFaith = document.getElementById("miniatureLosingFaith");
-var fenetreLosingFaith = document.getElementById("fenetreLosingFaith");
-var croixLosingFaith = document.getElementById("croixLosingFaith");
-
-butonLosingFaith.onclick = function(){
-	fenetreLosingFaith.style.display= "block";
-	stopVideo(bandedemo);
-	body.style.overflow = "hidden";
-}
-
-croixLosingFaith.onclick = function(){
-	fenetreLosingFaith.style.display = "none";
-	stopVideo(fenetreLosingFaith);
-	body.style.overflow = "auto";
+	exit("Mindie");
 }
 
 
@@ -140,18 +109,26 @@ var fenetreOpenSpace = document.getElementById("fenetreOpenSpace");
 var croixOpenSpace = document.getElementById("croixOpenSpace");
 
 butonOpenSpace.onclick = function(){
-	fenetreOpenSpace.style.display= "block";
-	stopVideo(bandedemo);
-	body.style.overflow = "hidden";
+	open("OpenSpace");
 }
 
 croixOpenSpace.onclick = function(){
-	fenetreOpenSpace.style.display = "none";
-	stopVideo(fenetreOpenSpace);
-	body.style.overflow = "auto";
+	exit("OpenSpace");
 }
 
+// LOSING FAITH
 
+var butonLosingFaith = document.getElementById("miniatureLosingFaith");
+var fenetreLosingFaith = document.getElementById("fenetreLosingFaith");
+var croixLosingFaith = document.getElementById("croixLosingFaith");
+
+butonLosingFaith.onclick = function(){
+	open("LosingFaith");
+}
+
+croixLosingFaith.onclick = function(){
+	exit("LosingFaith");
+}
 
 
 // BLUE INK
@@ -161,15 +138,11 @@ var fenetreBlueInk = document.getElementById("fenetreBlueInk");
 var croixBlueInk = document.getElementById("croixBlueInk");
 
 butonBlueInk.onclick = function(){
-	fenetreBlueInk.style.display= "block";
-	stopVideo(bandedemo);
-	body.style.overflow = "hidden";
+	open("BlueInk");
 }
 
 croixBlueInk.onclick = function(){
-	fenetreBlueInk.style.display = "none";
-	stopVideo(fenetreBlueInk);
-	body.style.overflow = "auto";
+	exit("BlueInk");
 }
 
 
@@ -180,15 +153,11 @@ var fenetreLegoStarWars = document.getElementById("fenetreLegoStarWars");
 var croixLegoStarWars = document.getElementById("croixLegoStarWars");
 
 butonLegoStarWars.onclick = function(){
-	fenetreLegoStarWars.style.display= "block";
-	stopVideo(bandedemo);
-	body.style.overflow = "hidden";
+	open("LegoStarWars");
 }
 
 croixLegoStarWars.onclick = function(){
-	fenetreLegoStarWars.style.display = "none";
-	stopVideo(fenetreLegoStarWars);
-	body.style.overflow = "auto";
+	exit("LegoStarWars");
 }
 
 
@@ -199,15 +168,11 @@ var fenetreWallE = document.getElementById("fenetreWallE");
 var croixWallE = document.getElementById("croixWallE");
 
 butonWallE.onclick = function(){
-	fenetreWallE.style.display= "block";
-	stopVideo(bandedemo);
-	body.style.overflow = "hidden";
+	open("WallE");
 }
 
 croixWallE.onclick = function(){
-	fenetreWallE.style.display = "none";
-	stopVideo(fenetreWallE);
-	body.style.overflow = "auto";
+	exit("WallE");
 }
 
 
@@ -218,15 +183,11 @@ var fenetreLego3D = document.getElementById("fenetreLego3D");
 var croixLego3D = document.getElementById("croixLego3D");
 
 butonLego3D.onclick = function(){
-	fenetreLego3D.style.display= "block";
-	stopVideo(bandedemo);
-	body.style.overflow = "hidden";
+	open("Lego3D");
 }
 
 croixLego3D.onclick = function(){
-	fenetreLego3D.style.display = "none";
-	stopVideo(fenetreLego3D);
-	body.style.overflow = "auto";
+	exit("Lego3D");
 }
 
 
@@ -237,13 +198,9 @@ var fenetreCharlotte = document.getElementById("fenetreCharlotte");
 var croixCharlotte = document.getElementById("croixCharlotte");
 
 butonCharlotte.onclick = function(){
-	fenetreCharlotte.style.display= "block";
-	stopVideo(bandedemo);
-	body.style.overflow = "hidden";
+	open("Charlotte");
 }
 
 croixCharlotte.onclick = function(){
-	fenetreCharlotte.style.display = "none";
-	stopVideo(fenetreCharlotte);
-	body.style.overflow = "auto";
+	exit("Charlotte");
 }

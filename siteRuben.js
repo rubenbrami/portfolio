@@ -16,11 +16,14 @@ var stopVideo = function ( element ) {
 
 var fenetres = document.getElementsByClassName('fenetre');
 
-var exit = function () {
-	for(var i=0; i<fenetres.length; i++){
+var exit = function (title) {
+	/*for(var i=0; i<fenetres.length; i++){
 		fenetres[i].style.display = "none";
 		stopVideo(fenetres[i]);
-	}
+	}*/
+	fen = document.getElementById("fenetre".concat(title));
+	fen.style.display = "none";
+	stopVideo(fen)
 	body.style.overflow = "auto";
 	console.log(body.style.overflow );
 }
@@ -45,7 +48,7 @@ buton22h22.onclick = function(){
 
 }*/
 
-croix22h22.onclick = exit;
+croix22h22.onclick = exit("22h22");
 
 
 // LES GARS QUI CHERCHENT

@@ -51,7 +51,13 @@ butonLesGarsQuiCherchent.onclick = function(){
 	body.style.overflow = "hidden";
 }
 
-croixLesGarsQuiCherchent.onclick = exit("LesGarsQuiCherchent");
+//croixLesGarsQuiCherchent.onclick = exit("LesGarsQuiCherchent");
+
+croixLesGarsQuiCherchent.onclick = function(){
+	fenetreLesGarsQuiCherchent.style.display = "none";
+	stopVideo(fenetreLesGarsQuiCherchent);
+	body.style.overflow = "auto";
+}
 
 // VERMILLON
 

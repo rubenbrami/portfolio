@@ -21,7 +21,7 @@ var exit = function (title) {
 	stopVideo(fen)
 	body.style.overflow = "auto";
 	console.log(body.style.overflow );
-}
+};
 
 // 22 H 22
 var buton22h22 = document.getElementById("miniature_22h22");
@@ -33,7 +33,7 @@ buton22h22.onclick = function(){
 	stopVideo(bandedemo);
 	body.style.overflow = "hidden";
 	console.log(body.style.overflow );
-}
+};
 
 croix22h22.onclick = exit("22h22");
 

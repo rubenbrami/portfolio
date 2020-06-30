@@ -26,9 +26,9 @@ var exit = function (title) {
 	console.log(body.style.overflow );
 }
 
-for(int i=0; i<croix.length; i++){
+/*for(int i=0; i<croix.length; i++){
 	croix[i].onclick = exit(titles[i]);
-}
+}*/
 
 // 22 H 22
 var buton22h22 = document.getElementById("miniature_22h22");
@@ -42,7 +42,7 @@ buton22h22.onclick = function(){
 	console.log(body.style.overflow );
 }
 
-//croix22h22.onclick = exit("22h22");
+croix22h22.onclick = exit("22h22");
 
 
 // LES GARS QUI CHERCHENT

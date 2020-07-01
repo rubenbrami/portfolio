@@ -318,7 +318,9 @@ h2 {
 }
 
 #titreLegoStarWars{
+	color: #c42f02
 	font-family: Star Wars;
+	font-size: 5vw;
 }
 
 #titreLego3D{

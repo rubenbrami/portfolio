@@ -4,9 +4,17 @@ body{
 }
 
 @font-face{
-	font-family: myFirstFont;
+	font-family: BebasNeue;
 	src: url('BebasNeue-Regular.ttf'),
     	 url('BebasNeue-Regular.eot'); /* IE9 */
+}
+
+
+
+@font-face{
+	font-family: Star Wars;
+	src: url('Starjedi.ttf'),
+    	 url('Starjedi.eot'); /* IE9 */
 }
 
 h1{
@@ -275,7 +283,7 @@ h2 {
 
 #titreHappiness47{
 	color: #fce232;
-	font-family:myFirstFont;
+	font-family:BebasNeue;
 	font-weight: normal;
 	letter-spacing: 0.14em;
 }
@@ -307,6 +315,10 @@ h2 {
 
 #titreLosingFaith{
 	color: #e8d6b3;
+}
+
+#titreLegoStarWars{
+	font-family: Star Wars;
 }
 
 #titreLego3D{

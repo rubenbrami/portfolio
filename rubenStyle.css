@@ -281,6 +281,14 @@ h2 {
 	font-weight: bold;
 }
 
+#titreMarionValentineTomWalker{
+	color: #b4d5fa;
+	font-family: Latha, 'Tamil MN', serif;
+	font-weight: 100;
+	letter-spacing: 0.04em;
+	font-size: 5vw;
+}
+
 #titreOpenSpace{
 	color: #cf0e0e;
 	font-family: 'Arial Black', 'Arial Bold', Gadget, sans-serif;

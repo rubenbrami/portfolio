@@ -3,6 +3,11 @@ body{
 	overflow: normal;
 }
 
+@font-face{
+	font-family: myFirstFont;
+	src: url('BebasNeue-Regular.ttf'),
+    	 url('BebasNeue-Regular.eot'); /* IE9 */
+}
 
 h1{
 	color:white;
@@ -270,8 +275,7 @@ h2 {
 
 #titreHappiness47{
 	color: #fce232;
-	font-family: 'BebasNeueRegular';
-	src: url(BebasNeue-Regular.ttf);
+	font-family:myFirstFont;
 	font-weight: normal;
 }
 

@@ -9,12 +9,16 @@ body{
     	 url('BebasNeue-Regular.eot'); /* IE9 */
 }
 
-
-
 @font-face{
 	font-family: Star Wars;
 	src: url('Starjedi.ttf'),
     	 url('Starjedi.eot'); /* IE9 */
+}
+
+@font-face{
+	font-family: Krungthep;
+	src: url('Krungthep.ttf'),
+    	 url('Krungthep.eot'); /* IE9 */
 }
 
 h1{
@@ -269,7 +273,7 @@ h2 {
 }
 #titreLesGarsQuiCherchent{
 	color : #4084b8;
-	font-family: Krungthep,Trebuchet MS,sans-serif;
+	font-family: Krungthep;
 	font-weight: normal;
 	font-size: 5vw;
 

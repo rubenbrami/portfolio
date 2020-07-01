@@ -16,7 +16,7 @@ body{
 }
 
 @font-face{
-	font-family: Krungthep;
+	font-family: Krungthep1;
 	src: url('Krungthep.ttf'),
     	 url('Krungthep.eot'); /* IE9 */
 }
@@ -273,7 +273,7 @@ h2 {
 }
 #titreLesGarsQuiCherchent{
 	color : #4084b8;
-	font-family: Krungthep;
+	font-family: Krungthep1;
 	font-weight: normal;
 	font-size: 5vw;
 

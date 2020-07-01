@@ -17,7 +17,7 @@ var stopVideo = function ( element ) {
 
 //var croix = document.getElementsByClassName("croix");
 
-var titles = ["22h22", "LesGarsQuiCherchent", "Vermillon", "Happiness47", "Mindie", "OpenSpace", "BlueInk", "LosingFaith", "LegoStarWars", "WallE", "Lego3D", "Charlotte"]; 
+var titles = ["22h22", "LesGarsQuiCherchent", "Vermillon", "Happiness47", "Mindie", "MarionValentineTomWalker", "OpenSpace", "BlueInk", "LosingFaith", "LegoStarWars", "WallE", "Lego3D", "Charlotte"]; 
 
 var open = function (title) {
 	var fen = document.getElementById("fenetre".concat(title));

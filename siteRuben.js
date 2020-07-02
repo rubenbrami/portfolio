@@ -2,6 +2,19 @@ var bandedemo = document.getElementById('bandeDemo');
 var pagePrincipale = document.getElementById("pagePrincipale");
 var body = document.getElementsByTagName('BODY')[0];
 
+window.onscroll = function() {myFunction()};
+var header = document.getElementById("ligne-boutons");
+var sticky = header.offsetTop;
+
+function myFunction(){
+	if(window.pageYOffset > sticky){
+		header.classList.add("sticky");
+	}
+	else{
+		header.classList.remove("sticky");
+	}
+}
+
 var stopVideo = function ( element ) {
     var iframe = element.querySelector( 'iframe');
     var video = element.querySelector( 'video' );
@@ -13,7 +26,6 @@ var stopVideo = function ( element ) {
         video.pause();
     }
 };
-
 
 //var croix = document.getElementsByClassName("croix");
 

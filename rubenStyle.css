@@ -407,6 +407,9 @@ h2 {
   	text-align: center;
   }
 
+  .fenetre{
+  	overflow: scroll;
+  }
 
   .titre{
   	font-size: 18vw;

@@ -27,8 +27,8 @@ h1{
 	font-size: 75px ;
 	font-family: Trebuchet MS, sans-serif ;
 	/*background-color: rgb(255,255,255,0.3);*/
-
 }
+
 h2 {
 	color:white;
 	font-family: Trebuchet MS, sans-serif ;
@@ -343,3 +343,70 @@ h2 {
 	top:0;
 	left: 0;
 }*/
+
+@media screen and (max-width: 1000px) {
+  h1{
+  	font-size: 15vw;
+  }
+  h2{
+  	font-size: 7vw;
+  }
+ 
+  
+  #ligne{
+   display: grid;
+	}
+  #ligne .menu .boutonMenu{
+	font-family: Trebuchet MS, sans-serif ;
+	/*display: inline-block;*/
+	float : left;
+	/*padding: 13px;*/
+	/*border: 2px;*/
+	color: white;
+	text-decoration:none;
+	text-align: center;
+	transition-property : background-color color;
+	transition-duration : 0.3s;
+	font-size: 7vw;
+	width: 100%;
+  }
+  #sous-titre{
+  	text-align: center;
+  	margin-right: 70px;
+  	margin-left: 70px;
+  }
+
+  .menu{
+  	margin-bottom: 10px;
+  	background-color: rgba(255, 255, 255,0.18);
+  	width: 400px;
+  	margin-left: auto;
+  	margin-right: auto;
+  }
+
+  .miniatures{
+	  width: 90%;
+	  margin: 0 auto;	
+	  text-align: center;
+	  margin-bottom: 100px;
+  }
+
+  .miniature{
+	  width: 800px;
+  }
+
+  .legendes{
+	margin-top: 10px;
+	color: white;
+	font-family: Trebuchet MS, sans-serif ;
+	text-align: center;
+	font-size: 5vw;
+	margin-bottom: 80px;
+  }
+  .categorie{
+  	text-align: center;
+  }
+
+
+  
+}

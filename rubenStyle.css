@@ -55,7 +55,7 @@ h2 {
 	position: fixed;
 	top:0;
 	z-index: 2;
-	background: #radial-gradient(circle at center,#20252b 90%,black);
+	background: radial-gradient(circle at center,#20252b 90%,black);
 }
 
 #sous-titre{	

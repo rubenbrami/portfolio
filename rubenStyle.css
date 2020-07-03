@@ -29,6 +29,13 @@ body{
     	 url('Krungthep.eot'); /* IE9 */
 }
 
+@font-face{
+	font-family: TamilMN;
+	src: url('Tamil MN.ttc'),
+    	 url('Tamil Mn.eot'); /* IE9 */
+}
+
+
 h1{
 	color:white;
 	text-align: center;
@@ -555,7 +562,7 @@ h2 {
 
   #titreMarionValentineTomWalker{
 	color: #b4d5fa;
-	font-family: Latha, 'Tamil MN', serif;
+	font-family: TamilMN;
 	font-weight: 100;
 	letter-spacing: 0.04em;
 	font-size: 10vw;

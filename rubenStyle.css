@@ -12,6 +12,12 @@ body{
 }
 
 @font-face{
+	font-family: Staatliches;
+	src: url('Staatliches-Regular.ttf'),
+    	 url('Staatliches-Regular.eot'); /* IE9 */
+}
+
+@font-face{
 	font-family: BebasNeue;
 	src: url('BebasNeue-Regular.ttf'),
     	 url('BebasNeue-Regular.eot'); /* IE9 */
@@ -33,7 +39,7 @@ h1{
 	color:white;
 	text-align: center;
 	font-size: 75px ;
-	font-family: Trebuchet MS, sans-serif ;
+	font-family: Staatliches;
 	/*background-color: rgb(255,255,255,0.3);*/
 }
 

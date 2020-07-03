@@ -387,8 +387,13 @@ h2 {
 }*/
 
 @media screen and (max-width: 1000px) {
-  h1{
+  h1 span{
+  	display: hidden;
+  }
+
+  h1:after{
   	font-size: 15vw;
+  	content: "Ruben Brami Portfolio";
   }
   h2{
   	font-size: 7vw;

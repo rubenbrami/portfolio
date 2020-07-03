@@ -5,9 +5,10 @@ body{
 }
 
 body{
-	background-image : url("fond.png");
+	/*background-image : url("fond.png");*/
 	overflow: normal;
 	height: 100vh;
+	background: linear-gradient(0.25turn,black,#1a1c1e,#20252b,#262a33 ,#20252b,#1a1c1e,black)
 	/*width: 100vh;*/
 }
 
@@ -61,7 +62,7 @@ h2 {
 	position: fixed;
 	top:0;
 	z-index: 2;
-	background: radial-gradient(circle at center,#20252b 90%,black);
+	background: linear-gradient(0.25turn,black,#1a1c1e,#20252b,#262a33 ,#20252b,#1a1c1e,black)
 }
 
 #sous-titre{	

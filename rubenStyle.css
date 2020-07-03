@@ -388,7 +388,7 @@ h2 {
 
 @media screen and (max-width: 1000px) {
   h1 span{
-  	display: hidden;
+  	display: none;
   }
 
   h1:after{

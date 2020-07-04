@@ -307,6 +307,7 @@ h2 {
 	color: white;
 	font-family: Trebuchet MS, sans-serif ;
 	word-wrap : break-word;
+	font-size: 1.25vmax;
 }
 
 #mes_roles, #avec, #equipeTechnique,#date{ 

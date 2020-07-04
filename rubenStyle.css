@@ -247,6 +247,7 @@ h2 {
 	max-height: 88vh;
 	height: 100%;
 	/*background-color: yellow;*/
+	line-height: 1.5;
 }
 
 .cadreDeVideo{
@@ -296,9 +297,13 @@ h2 {
 	border-width: thin;
 	height: 79.35%;
 	border-top-style: none;
+	line-height: 1.5;
 
 }
 
+.menu{
+	height: 1px;
+}
 .texteDescriptif{
 	padding-left:10%;
 	padding-right:10%;

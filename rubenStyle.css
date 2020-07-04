@@ -250,6 +250,11 @@ h2 {
 	line-height: 1.5;
 }
 
+.blanc:target{
+	padding-top: 0.7em; 
+    margin-top: -0.7em; 
+}
+
 .cadreDeVideo{
 	margin-top: 6vh;	
 	border-style: solid;

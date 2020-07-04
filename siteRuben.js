@@ -36,9 +36,9 @@ var open = function (title) {
 	fen.style.display= "block";
 
 	// Les quatre prochaines lignes pour que le scroll se réinitialise à chaque ouverture de fenêtre.
-
+	console.log(fen);
 	var zoneText = fen.childNodes[3].childNodes[1];
-	var zoneASavoir = fen.childNodes[5].childNodes[5];
+	var zoneASavoir = fen.childNodes[5].childNodes[1].childNodes[5].childNodes[3];
 	zoneText.scrollTo(0,0);
 	zoneASavoir.scrollTo(0,0);
 

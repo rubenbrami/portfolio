@@ -19,12 +19,6 @@ body{
 }
 
 @font-face{
-	font-family: Arial Black;
-	src: url('Arial Black.ttf'),
-    	 url('Arial Black.eot'); /* IE9 */
-}
-
-@font-face{
 	font-family: BebasNeue;
 	src: url('BebasNeue-Regular.ttf'),
     	 url('BebasNeue-Regular.eot'); /* IE9 */
@@ -200,8 +194,8 @@ h2 {
 	margin-top: 30px;
 	margin-left: 600px;
 */	width: 85%;
-	height: 50%;
-	margin-top: 70px;
+	height: 100%;
+	/*margin-top: 70px;*/
 }
 .zoneDeCroix{
 	width: 5%;
@@ -245,23 +239,44 @@ h2 {
 	background-color: black;
 }*/
 .cadreDeTexte{
-	margin-top: 10%;
+	margin-top: 6vh;
 	border-style: solid;
 	border-color: white;
 	border-width: thin;
 	overflow: auto;
-	max-height: 85%;
+	max-height: 88vh;
+	height: 100%;
 	/*background-color: yellow;*/
 }
+
+.cadreDeVideo{
+	margin-top: 6vh;	
+	border-style: solid;
+	/*border-color: white;*/
+	border-width: thin;
+	max-height: 88vh;
+	height: 100%;
+}
+.video{
+	height: 47%;
+}
+.zoneVide{
+	height: 6%;
+}
+.zoneASavoir{
+	height: 47%;
+}
+
 .aSavoir{
-	font-size: 1.2vw;
-	/*height: 6%;*/
+	font-size: 2.2vh;
+	height: 20%;
 	margin: auto;
 	width: 85%;
 	/*background-color: red;*/
 	border-style: solid;
 	border-color: white;
 	border-width: thin;
+	line-height: 117%;
 
 }
 .titre{
@@ -275,11 +290,12 @@ h2 {
 	margin: auto;
 	/*background-color: green;*/
 	overflow: scroll;
-	max-height: 22%;
 	width: 85%;
 	border-style: solid;
 	border-color: white;
 	border-width: thin;
+	height: 79.35%;
+	border-top-style: none;
 
 }
 
@@ -576,7 +592,7 @@ h2 {
 
   #titreMindie{
 	color: #2bf1ff;
-	font-family: Arial Black;
+	font-family: 'Arial Black', 'Arial Bold', Gadget, sans-serif;
 
 	font-weight: bold;
   }
@@ -591,7 +607,7 @@ h2 {
 
   #titreOpenSpace{
 	color: #cf0e0e;
-	font-family: Arial Black;
+	font-family: 'Arial Black', 'Arial Bold', Gadget, sans-serif;
 	letter-spacing: -0.07em;
 	font-size: 13vw;
   }

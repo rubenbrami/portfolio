@@ -41,7 +41,6 @@ var open = function (title) {
 	var zoneASavoir = fen.childNodes[5].childNodes[1].childNodes[5].childNodes[3];
 	zoneText.scrollTo(0,0);
 	zoneASavoir.scrollTo(0,0);
-
 	stopVideo(bandedemo);
 	body.style.overflow = "hidden";
 	console.log(body.style.overflow );
@@ -53,7 +52,7 @@ var exit = function (title) {
 	stopVideo(fen)
 	body.style.overflow = "auto";
 	console.log(body.style.overflow );
-};
+}
 
 var useWindow = function (title) {
 	var button = document.getElementById("miniature".concat(title));
@@ -65,6 +64,16 @@ var useWindow = function (title) {
 
 	croix.onclick = function(){
 		exit(title);
+	}
+}
+
+
+window.onkeydown=function(e){
+	var x=e.which;
+	if (x == 27){
+		for (var i =0; i< titles.length ; i++ ){
+			exit(titles[i]);
+		}
 	}
 }
 

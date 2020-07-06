@@ -182,7 +182,7 @@ h2 {
 	opacity: 1;
 }
 
-#fenetre22h22, #fenetreLesGarsQuiCherchent, #fenetreVermillon, #fenetreHappiness47, #fenetreMindie, #fenetreMarionValentineTomWalker, #fenetreOpenSpace, #fenetreBlueInk, #fenetreLosingFaith, #fenetreLegoStarWars, #fenetreWallE, #fenetreLego3D, #fenetreCharlotte{
+#fenetreLegoStarWars, #fenetreWallE, #fenetreLego3D, #fenetreCharlotte{
 	display: none;
 	position: fixed;
 	top:0;
@@ -328,7 +328,12 @@ h2 {
 	text-align: left;
 	margin-left: 10%;
 	margin-top: -15px;
-	white-space:nowrap;
+	/*white-space:nowrap;*/
+	-webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  margin-right: 10%;
 
 }
 
@@ -338,27 +343,23 @@ h2 {
 }
 
 #titre22h22{
-	color : #a5cfc3;
 	font-family: Courier New;
 	font-weight: normal;
 	font-size: 8vw;
 }
+
 #titreLesGarsQuiCherchent{
-	color : #4084b8;
 	font-family: Krungthep1;
 	font-weight: normal;
 	font-size: 5vw;
-
 }
 
 #titreVermillon{
-	color: #ffbf00;
   	font-family: "Times New Roman", Times, serif;
 	font-weight: normal;
 }
 
 #titreHappiness47{
-	color: #fce232;
 	font-family:BebasNeue;
 	font-weight: normal;
 	letter-spacing: 0.14em;
@@ -367,7 +368,6 @@ h2 {
 #titreMindie{
 	color: #2bf1ff;
 	font-family: 'Arial Black', 'Arial Bold', Gadget, sans-serif;
-
 	font-weight: bold;
 }
 

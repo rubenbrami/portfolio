@@ -357,7 +357,7 @@ var boutonPHP = document.getElementById('boutonPHP');
 	    }
     }
     // Send the data to PHP now... and wait for response to update the status div
-    hr.send("variable1=truc&variable2=bidule"); // Actually execute the request
+    hr.send(); // Actually execute the request
     //document.getElementById("coco").innerHTML = "processing...";
 // }
 

@@ -1,6 +1,7 @@
 <?php
 
-header("Content-Type: text/plain"); // Utilisation d'un header pour spécifier le type de contenu de la page. Ici, il s'agit juste de texte brut (text/plain). 
+header("Access-Control-Allow-Origin: *");
+//header("Content-Type: text/plain"); // Utilisation d'un header pour spécifier le type de contenu de la page. Ici, il s'agit juste de texte brut (text/plain). 
 
 // try{
 	$bdd = new PDO('mysql:host=sql7.freemysqlhosting.net;dbname=sql7354367;charset=utf8','sql7354367','K2pYSVKNcs');

@@ -7,7 +7,7 @@ var boutonPHP = document.getElementById('boutonPHP');
     // Create our XMLHttpRequest object
     var hr = new XMLHttpRequest();
     // Create some variables we need to send to our PHP file
-    var url = "https://github.com/rubenbrami/portfolio/blob/master/portfolio.php";
+    var url = "portfolio.php";
     //var fn = document.getElementById("first_name").value;
     //var ln = document.getElementById("last_name").value;
     var vars = "firstname="+"fn"+"&lastname="+"ln";

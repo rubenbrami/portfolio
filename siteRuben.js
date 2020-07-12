@@ -11,7 +11,7 @@ var boutonPHP = document.getElementById('boutonPHP');
     //var fn = document.getElementById("first_name").value;
     //var ln = document.getElementById("last_name").value;
     var vars = "firstname="+"fn"+"&lastname="+"ln";
-    hr.open("POST", url , true);
+    hr.open("GET", url , true);
 
     // Set content type header information for sending url encoded variables in the request
     hr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");

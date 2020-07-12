@@ -22,7 +22,7 @@ var boutonPHP = document.getElementById('boutonPHP');
 	    if(hr.readyState == 4 && hr.status == 200) {
 		    var return_data = hr.responseText;
 			// document.getElementById("coco").innerHTML = return_data;
-	    	console.log(JSON.parse(return_data));
+	    	//console.log(JSON.parse(return_data));
 	    	console.log("rentre");
 
 			var typeVideo = JSON.parse(return_data)[11];
